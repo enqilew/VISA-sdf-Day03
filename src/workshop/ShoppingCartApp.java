@@ -29,6 +29,7 @@ public class ShoppingCartApp {
         System.out.println("Welcome to your shopping cart");
 
         // Enter the store's main loop to interact with users
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("> ");
